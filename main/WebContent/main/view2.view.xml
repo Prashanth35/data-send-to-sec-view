@@ -1,0 +1,38 @@
+<core:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m"
+		controllerName="main.view2" xmlns:html="http://www.w3.org/1999/xhtml"    xmlns:f="sap.ui.layout.form">
+	<Page title="Title" id="id2">
+		<content>
+		
+		
+		<f:SimpleForm id="idsf"
+		
+			editable="false"
+			layout="ResponsiveGridLayout"
+			title="Show details"
+			labelSpanXL="3"
+			labelSpanL="3"
+			labelSpanM="3"
+			labelSpanS="12"
+			adjustLabelSpan="false"
+			emptySpanXL="4"
+			emptySpanL="4"
+			emptySpanM="4"
+			emptySpanS="0"
+			columnsXL="1"
+			columnsL="1"
+			columnsM="1"
+		
+		>
+		<Label text="Name"/>
+	<!-- <Input   id="idname"/> -->
+	<Text text="" id="idtxt1"/>
+	<Label text="Phone Number "/>
+	<!-- <Input   id="idphone"/> -->
+	<Text text="" id="idtxt2"/>
+	<Label text="Qualification"/>
+	<Text text="" id="idtxt3"/>
+	<!-- <Input id="idqlfctn"/> -->
+	</f:SimpleForm>
+		</content>
+	</Page>
+</core:View>

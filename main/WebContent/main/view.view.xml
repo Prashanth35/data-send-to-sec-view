@@ -1,0 +1,48 @@
+<core:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m"
+		controllerName="main.view" xmlns:html="http://www.w3.org/1999/xhtml"    	
+		xmlns:f="sap.ui.layout.form">
+	<Page title="Title" id="id1">
+		<content>
+		<f:SimpleForm id="idsf"
+		
+			editable="false"
+			layout="ResponsiveGridLayout"
+			title="Enter details"
+			labelSpanXL="3"
+			labelSpanL="3"
+			labelSpanM="3"
+			labelSpanS="12"
+			adjustLabelSpan="false"
+			emptySpanXL="4"
+			emptySpanL="4"
+			emptySpanM="4"
+			emptySpanS="0"
+			columnsXL="1"
+			columnsL="1"
+			columnsM="1"
+		
+		>
+		
+		
+	
+		<Label text="FirstName "/>
+		<Input value="" id="idFname"/>
+		
+		
+		<Label text="LastName "/>
+		<Input id="idLname"/>
+		
+		<Label text="phone Number "/>
+		<Input value="" id="idnumber"/>
+		
+		<Label text="Qualification"/>
+		<Input id="idqlfctn"/>
+		
+		<Label/>
+	<Button  text="CLICK"  press="gotoview2"  id="idB"/>
+		
+		
+		</f:SimpleForm>
+		</content>
+	</Page>
+</core:View>
